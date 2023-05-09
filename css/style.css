@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 23 version
+*/
+
 /*section1*/
 .h4-4{
     color: #5863F8;
@@ -48,7 +55,8 @@ input[type=text] {
     width: 100%;
     padding: 20px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-color: #f8f8f8;
     background: #f8f8f8;
 }
@@ -56,7 +64,8 @@ input[type=submit] {
     width: 100%;
     padding: 20px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-color: rgba(4, 29, 250, 0.896);
     background-color: #5863F8;
 }
@@ -236,9 +245,17 @@ input[value=Send]{
     color: #000000;
     margin-top: 1200px;
     margin-left: 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     gap: 125px;
 
 }
